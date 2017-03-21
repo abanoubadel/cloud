@@ -6,6 +6,6 @@ ADD package.json /home/node/package.json
 WORKDIR /home/node
 
 RUN npm install
-CMD ['node', 'server.js']
+CMD ["node", "server.js"]
 
 EXPOSE 3000
